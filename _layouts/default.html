@@ -8,22 +8,18 @@
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/app.scss %}">
 </head>
 <body>
-{% include scripts-bottom.html %}
+
 
 <img src="images/titel2.jpg" class="img-fluid header" alt="titel">
 
-<div>
+
   {% include nav.html %}
-</div>
 
-<div>
   {{ content }}
-</div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
 
-<div>
   {% include footer.html %}
-</div>
 
-
+  {% include scripts-bottom.html %}
 </body>
 </html>

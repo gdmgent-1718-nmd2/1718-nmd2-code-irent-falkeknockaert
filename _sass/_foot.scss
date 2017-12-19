@@ -3,24 +3,32 @@
  -------------------------------------------------- */
 .footer{
     font-family: 'raleway';
-    color: #33c0f5;
-    font-size: 9px;
+    color: white;
+    font-size: 12px;
     margin-bottom: 0px;
     padding-bottom: 2px;
-    padding-top: 2px;
+    padding-top: 5px;
   }
+
+.footer2{
+  font-family: 'raleway';
+  color: white;
+  font-size: 12px;
+  margin-bottom: 0px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
+.footer_{
+  background: url('../../images/footer.jpg') no-repeat;
+}
  
-.footertitel{
-    font-family: 'raleway';
-    color: #33c0f5;
-    font-size: 11px;
-    margin-bottom: 0px;
-    padding-bottom: 2px;
-    padding-top: 6px;
-  }
 .foot{
     min-height: 70px !important;
-    max-height:120px;
+    max-height:130px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.space3{
+  padding-bottom: 8px;
 }
