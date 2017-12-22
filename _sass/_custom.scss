@@ -7,6 +7,12 @@ p{
     margin-bottom: 8px;
 }
 
+.link2{
+    font-family: 'raleway';
+    font-size: 12pt;
+    color: #1594b7;
+}
+
 td{
     font-family: 'raleway';
     font-size: 12pt;
@@ -30,6 +36,7 @@ h2{
 a{
     font-family:'raleway';
     font-size: 10pt;
+    
 }
 
 .display-4{
@@ -55,6 +62,14 @@ option{
 
 .dropdown{
     margin-bottom: 8px;
+    font-family: 'raleway';
+    font-size: 12pt;
+}
+
+.betalen{
+    margin-bottom: 8px;
+    font-family: 'raleway';
+    font-size: 12pt;
 }
 
 .heelal{
@@ -67,7 +82,7 @@ option{
 }
 
 .header{
-    max-height: 100%;
+    max-height: 300px;
     width: auto;
 }
 
@@ -128,6 +143,15 @@ border-color: #1594b7;
     margin-top: 8px;
 }
 
+.tarieven{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.tarieven3{
+    border-bottom: #1594b7 solid 1px;
+}
+
 /* start slide button */
 #myBtn {
     display: none; /* Hidden by default */
@@ -152,6 +176,12 @@ border-color: #1594b7;
 /* einde slide button */
 
 
+/* carousel */
+
+.carousel-item {
+    height: 150px;
+}
+
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
@@ -174,10 +204,20 @@ border-color: #1594b7;
     .display-4{
         margin-top: 10px;
     }
+    .tarieven2{
+        border-bottom: #1594b7 solid 1px;
+    }
+    .carousel-item {
+        height: 300px;
+    }
  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+    .heelal2{
+        margin-top: 25px;
+    }
+ }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }
